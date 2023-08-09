@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "paths": {
+      "@tinijs/ui": ["./.tini-ui"],
+      "@tinijs/ui/*": ["./.tini-ui/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}

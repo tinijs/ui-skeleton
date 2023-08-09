@@ -1,0 +1,12 @@
+.DS_Store
+.parcel-cache
+.tini-app
+.tini-ui
+node_modules/
+build/
+dist/
+docs/
+www/
+
+components/
+blocks/
