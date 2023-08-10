@@ -7,8 +7,9 @@
   "homepage": "https://tinijs.dev",
   "scripts": {
     "dev": "tini ui dev && tini dev",
-    "build:1:icons": "tini ui icon tini-icons ./icons && parcel build build/tini-icons/*.bundle.ts --dist-dir build/tini-icons --no-cache --no-source-maps --log-level warn",
-    "build:2:untitled": "tini ui build tini untitled && parcel build build/tini-untitled/components/*.bundle.ts --dist-dir build/tini-untitled/components --no-cache --log-level warn",
+    "build:0:app": "tini build",
+    "build:1:icons": "tini ui icon tinix-icons ./icons && parcel build build/tinix-icons/*.bundle.ts --dist-dir build/tinix-icons --no-cache --no-source-maps --log-level warn",
+    "build:2:untitled": "tini ui build tinix untitled && parcel build build/tinix-untitled/components/*.bundle.ts --dist-dir build/tinix-untitled/components --no-cache --log-level warn",
     "sync": "cp -R node_modules/@tinijs/ui-common/components ./components && cp -R node_modules/@tinijs/ui-common/blocks ./blocks",
     "lint": "gts lint",
     "fix": "gts fix"
@@ -22,8 +23,8 @@
   },
   "dependencies": {
     "@tinijs/bootstrap-icons": "^0.0.10",
-    "@tinijs/core": "^0.1.0",
-    "@tinijs/router": "^0.1.0",
+    "@tinijs/core": "file:../core/tinijs-core-0.1.0.tgz",
+    "@tinijs/router": "file:../router/tinijs-router-0.1.0.tgz",
     "@tinijs/store": "^0.1.0",
     "@tinijs/ui-common": "file:../ui/build/@tinijs/ui-common/tinijs-ui-common-0.0.1.tgz",
     "chroma-js": "^2.4.2",
