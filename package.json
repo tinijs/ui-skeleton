@@ -8,10 +8,10 @@
   "scripts": {
     "dev": "tini ui dev && tini dev",
     "build": "npm run sync && npm run build:0:app && npm run build:1:icons && npm run build:2:untitled",
-    "build:0:app": "tini build",
+    "build:0:app": "tini ui dev && tini build",
     "build:1:icons": "tini ui icon tinix-icons ./icons && parcel build build/tinix-icons/*.bundle.ts --dist-dir build/tinix-icons --no-cache --no-source-maps --log-level warn",
     "build:2:untitled": "tini ui build tinix untitled && parcel build build/tinix-untitled/components/*.bundle.ts --dist-dir build/tinix-untitled/components --no-cache --log-level warn",
-    "sync": "cp -R node_modules/@tinijs/ui-common/components ./components && cp -R node_modules/@tinijs/ui-common/blocks ./blocks",
+    "sync": "cp -R node_modules/@tinijs/ui-common/components ./ && cp -R node_modules/@tinijs/ui-common/blocks ./",
     "lint": "gts lint",
     "fix": "gts fix"
   },

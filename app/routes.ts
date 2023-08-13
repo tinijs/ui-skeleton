@@ -1,6 +1,7 @@
 import {Route} from '@tinijs/router';
 import {
   defaultLayoutRoute,
+  guidesRoutes,
   componentsRoutes,
   notFoundRoute,
 } from '@tinijs/ui-common/app/routes';
@@ -19,6 +20,8 @@ export default [
     ...defaultLayoutRoute,
     children: [
       ...topRoutes,
+      // guides
+      ...guidesRoutes,
       // components
       ...componentsRoutes,
       // 404
