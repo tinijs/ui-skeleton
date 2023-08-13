@@ -1,12 +1,13 @@
 {
   "name": "@tinijs/ui-skeleton",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "A skeleton for building Tini UI packages.",
   "author": "Lam Nhan",
   "license": "MIT",
   "homepage": "https://tinijs.dev",
   "scripts": {
     "dev": "tini ui dev && tini dev",
+    "build": "npm run sync && npm run build:0:app && npm run build:1:icons && npm run build:2:untitled",
     "build:0:app": "tini build",
     "build:1:icons": "tini ui icon tinix-icons ./icons && parcel build build/tinix-icons/*.bundle.ts --dist-dir build/tinix-icons --no-cache --no-source-maps --log-level warn",
     "build:2:untitled": "tini ui build tinix untitled && parcel build build/tinix-untitled/components/*.bundle.ts --dist-dir build/tinix-untitled/components --no-cache --log-level warn",
@@ -23,10 +24,10 @@
   },
   "dependencies": {
     "@tinijs/bootstrap-icons": "^0.0.10",
-    "@tinijs/core": "file:../core/tinijs-core-0.1.0.tgz",
-    "@tinijs/router": "file:../router/tinijs-router-0.1.0.tgz",
-    "@tinijs/store": "^0.1.0",
-    "@tinijs/ui-common": "file:../ui/build/@tinijs/ui-common/tinijs-ui-common-0.0.1.tgz",
+    "@tinijs/core": "^0.1.1",
+    "@tinijs/router": "^0.1.1",
+    "@tinijs/store": "^0.1.1",
+    "@tinijs/ui-common": "^0.1.1",
     "chroma-js": "^2.4.2",
     "gradient-parser": "^1.0.2",
     "grapick": "^0.1.13",
@@ -34,7 +35,7 @@
     "lit": "^3.0.0-pre.0"
   },
   "devDependencies": {
-    "@tinijs/cli": "^0.1.0",
+    "@tinijs/cli": "^0.1.1",
     "@types/chroma-js": "^2.4.0",
     "@types/gradient-parser": "^0.1.2",
     "@types/node": "^20.4.9",
