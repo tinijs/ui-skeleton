@@ -9,7 +9,7 @@ Configurable.setOptions({
   appName: 'UI Skeleton',
   logoUrl: new URL('./assets/logo.svg', import.meta.url).toString(),
   repoUrl: 'https://github.com/tinijs/ui-skeleton',
-  // iconsRepoUrl: '',
+  iconsRepoUrl: 'https://github.com/tinijs/ui-skeleton',
   packagePrefix: 'tinix',
   soulList: [
     {

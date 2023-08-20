@@ -1,0 +1,43 @@
+import {css} from 'lit';
+import {generateColorVaries, generateSizeVaries} from '@tinijs/core';
+
+export const xxxStyle = css`
+  :host {
+    
+  }
+
+  /*
+   * Root
+   */
+
+  .root {
+    
+  }
+
+  /*
+   * [scheme]
+   */
+
+  ${generateColorVaries(
+    ({name, color}) => `
+    .scheme-${name} {
+      
+    }
+  `
+  )}
+
+  /*
+   * [size]
+   */
+
+  ${generateSizeVaries(
+    size => `
+    .size-${size} {
+      
+    }
+  `
+  )}
+`;
+
+export const xxxScript = undefined;
+export const xxxUnscript = undefined;

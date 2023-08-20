@@ -3,11 +3,13 @@
 .tini-app
 .tini-ui
 node_modules/
+
+components/
+blocks/
+
 build/
 dist/
 docs/
 www/
 
-components/
-blocks/
 changelogs/

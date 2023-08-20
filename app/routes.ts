@@ -11,7 +11,15 @@ const topRoutes: Route[] = [
     path: '',
     component: 'app-page-home',
     action: () => import('./pages/home'),
-    title: 'Introduction',
+    title: 'Home',
+  },
+];
+
+export const iconsRoutes: Route[] = [
+  {
+    path: 'icons/tinix',
+    component: 'app-page-icons-tinix',
+    action: () => import('./pages/icons/tinix'),
   },
 ];
 
@@ -24,6 +32,8 @@ export default [
       ...guidesRoutes,
       // components
       ...componentsRoutes,
+      // icons
+      ...iconsRoutes,
       // 404
       notFoundRoute,
     ],

@@ -23,11 +23,11 @@
     "url": "https://github.com/tinijs/ui-skeleton/issues"
   },
   "dependencies": {
-    "@tinijs/bootstrap-icons": "^0.0.10",
-    "@tinijs/core": "^0.1.1",
+    "@tinijs/bootstrap-icons": "^0.2.0",
+    "@tinijs/core": "file:../core/tinijs-core-0.1.1.tgz",
     "@tinijs/router": "^0.1.1",
     "@tinijs/store": "^0.1.1",
-    "@tinijs/ui-common": "^0.1.1",
+    "@tinijs/ui-common": "file:../ui/build/@tinijs/ui-common/tinijs-ui-common-0.1.1.tgz",
     "chroma-js": "^2.4.2",
     "gradient-parser": "^1.0.2",
     "grapick": "^0.1.13",
@@ -35,7 +35,7 @@
     "lit": "^3.0.0-pre.0"
   },
   "devDependencies": {
-    "@tinijs/cli": "^0.1.1",
+    "@tinijs/cli": "file:../cli/tinijs-cli-0.1.1.tgz",
     "@types/chroma-js": "^2.4.0",
     "@types/gradient-parser": "^0.1.2",
     "@types/node": "^20.4.9",
