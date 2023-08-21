@@ -2,14 +2,15 @@
 .parcel-cache
 .tini-app
 .tini-ui
-node_modules/
+node_modules
 
-components/
-blocks/
+/components
+/blocks
 
-build/
-dist/
-docs/
-www/
+build
+dist
+docs
+www
 
-changelogs/
+# enable this in actual project
+changelogs
