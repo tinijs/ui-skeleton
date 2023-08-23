@@ -1,6 +1,6 @@
 import {Page, TiniComponent, html, stylingWithBases} from '@tinijs/core';
 import {AppIconPageComponent} from '@tinijs/ui-common/app/components/icon-page';
-import {commonBases, headingsBases, linkBases, textBases} from '@tinijs/ui';
+import {commonBases, headingsBases, linkBases, textBases} from '@tinijs/ui/bases';
 
 @Page({
   name: 'app-page-icons-tinix',
