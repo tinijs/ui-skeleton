@@ -1,5 +1,11 @@
-import {Page, TiniComponent, html, stylingWithBases} from '@tinijs/core';
-import {commonBases, headingsBases, linkBases, textBases} from '@tinijs/ui/bases';
+import {html} from 'lit';
+import {Page, TiniComponent, stylingWithBases} from '@tinijs/core';
+import {
+  commonBases,
+  headingsBases,
+  linkBases,
+  textBases,
+} from '@tinijs/ui/bases';
 
 @Page({
   name: 'app-page-home',
