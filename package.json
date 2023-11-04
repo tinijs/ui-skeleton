@@ -23,27 +23,28 @@
     "url": "https://github.com/tinijs/ui-skeleton/issues"
   },
   "dependencies": {
-    "@lit-labs/react": "^2.0.3",
-    "@tinijs/bootstrap-icons": "^0.10.0",
+    "@lit/react": "^1.0.1",
+    "@tinijs/bootstrap-icons": "^0.11.0",
     "@tinijs/core": "^0.10.0",
     "@tinijs/router": "^0.10.0",
     "@tinijs/store": "^0.10.0",
-    "@tinijs/ui-common": "^0.10.0",
+    "@tinijs/ui-common": "file:../ui/build/@tinijs/ui-common/tinijs-ui-common-0.10.0.tgz",
     "chroma-js": "^2.4.2",
     "gradient-parser": "^1.0.2",
     "grapick": "^0.1.13",
-    "highlight.js": "^11.8.0",
-    "lit": "^3.0.0-pre.0",
+    "highlight.js": "^11.9.0",
+    "lit": "^3.0.2",
     "react": "^18.2.0",
     "tinijs": "^0.10.0"
   },
   "devDependencies": {
-    "@tinijs/cli": "^0.10.0",
-    "@types/chroma-js": "^2.4.0",
-    "@types/gradient-parser": "^0.1.2",
-    "@types/node": "^20.4.9",
-    "gts": "^5.0.0",
-    "parcel": "^2.9.3",
-    "typescript": "~5.1.6"
+    "@parcel/transformer-sass": "^2.10.2",
+    "@tinijs/cli": "file:../cli/tinijs-cli-0.10.0.tgz",
+    "@types/chroma-js": "^2.4.2",
+    "@types/gradient-parser": "^0.1.4",
+    "@types/node": "^20.8.10",
+    "gts": "^5.2.0",
+    "parcel": "^2.10.2",
+    "typescript": "~5.2.2"
   }
 }
