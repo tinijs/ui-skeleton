@@ -1,6 +1,6 @@
 {
   "name": "@tinijs/ui-skeleton",
-  "version": "0.14.1",
+  "version": "0.15.0",
   "description": "A skeleton for building Tini UI packages.",
   "author": "Lam Nhan",
   "license": "MIT",
@@ -25,22 +25,22 @@
   "dependencies": {
     "@lit/react": "^1.0.2",
     "@tinijs/bootstrap-icons": "^0.15.0",
-    "@tinijs/core": "^0.14.0",
-    "@tinijs/router": "^0.14.0",
-    "@tinijs/store": "^0.14.0",
-    "@tinijs/ui-bootstrap": "^0.14.1",
-    "@tinijs/ui-common": "^0.14.1",
+    "@tinijs/core": "^0.15.0",
+    "@tinijs/router": "^0.15.0",
+    "@tinijs/store": "^0.15.0",
+    "@tinijs/ui-bootstrap": "^0.15.0",
+    "@tinijs/ui-common": "^0.15.0",
     "chroma-js": "^2.4.2",
     "gradient-parser": "^1.0.2",
     "grapick": "^0.1.13",
     "highlight.js": "^11.9.0",
     "lit": "^3.1.0",
     "react": "^18.2.0",
-    "tinijs": "^0.14.1"
+    "tinijs": "^0.15.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
-    "@tinijs/cli": "^0.14.1",
+    "@tinijs/cli": "^0.15.0",
     "@types/chroma-js": "^2.4.3",
     "@types/gradient-parser": "^0.1.5",
     "@types/node": "^20.9.4",
