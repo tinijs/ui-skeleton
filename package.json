@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@lit/react": "^1.0.2",
-    "@tinijs/bootstrap-icons": "^0.15.0",
+    "@tinijs/bootstrap-icons": "^0.16.0",
     "@tinijs/core": "^0.15.0",
     "@tinijs/router": "^0.15.0",
     "@tinijs/store": "^0.15.0",
